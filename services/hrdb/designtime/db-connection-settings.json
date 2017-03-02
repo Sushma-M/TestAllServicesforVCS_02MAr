@@ -1,4 +1,5 @@
 {
+  "username" : "sa",
   "password" : "7b6a43524a78700d662158",
   "url" : "jdbc:hsqldb:file:{WebAppRoot}/WEB-INF/data/hrdb;shutdown=true;ifexists=true;hsqldb.lock_file=false;",
   "driverClass" : "org.hsqldb.jdbcDriver",
@@ -33,10 +34,9 @@
   "dataSourceType" : "WM_MANAGED_DATASOURCE",
   "jndiName" : "",
   "reloadInfo" : {
-    "reload" : true,
-    "reason" : "MIGRATION_FAILED",
-    "message" : "Source code generation for Query and Procedure services are updated which requires regeneration of source code."
+    "reload" : false,
+    "reason" : null,
+    "message" : null
   },
-  "readOnly" : true,
-  "username" : "sa"
+  "readOnly" : true
 }
